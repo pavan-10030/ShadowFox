@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: rgb(0,0,34);
+    color:white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.5 ease-in-out;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color:rgb(1, 3, 49);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+   
+}
+
+.left{
+    font-size: 1.7rem;
+    cursor: default;
+    font-weight: bold;
+}
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:50px 0;
+}
+
+.first>div{
+    width: 30%;
+}
+
+.leftsection{
+    
+    font-size: 2rem;
+    margin: 30px 0;
+}
+
+.rightsection{
+    
+}
+
+.rightsection img{
+    width: 80%;
+    margin:50px 0;
+}
+
+.purple{
+    color:rgb(152, 57, 240);
+}
+
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.2rem;
+}
+
+ul li a:hover{
+    text-decoration: none;
+    color:goldenrod;
+}
+
+#element{
+    color:rgb(152, 57, 240);
+}
+
+hr{
+    border:0;
+    background-color: rgb(118, 118, 198);
+    height: 2px;
+}
+
+.second{
+    height: 40vh;
+    margin: 40px auto;
+    max-width: 80vw;
+}
+
+
+
+.second h1{
+    font-size: 1.9rem;
+
+}
+
+.text-grey{
+    color:grey;
+}
+
+.second .box{
+    background: white;
+    width: 80vw;
+    height: 2px ;
+    margin:40px;
+    display: flex;
+    
+}
+
+.second .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 170px;
+}
+
+.vertical-title{
+    position:relative;
+    top:95px;
+    left:-10px;
+    width: 150px;
+    
+}
+
+.vertical-desc{
+    position: relative;
+    top:88px;
+    color:grey;
+    font-size: 10px;
+    width: 150px;
+    left:-10px;
+    margin:5px 0;
+}
+
+.third{
+    height: 30vh;
+    margin: 40px auto;
+    max-width: 80vw;
+}
+
+.third .skillscontainer{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.skill{
+    display: flex;
+    margin-right: 2rem;
+    width: fit-content;
+    align-items: center;
+}
+.skill img{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+footer{
+    background-color: rgb(1, 3, 49);
+    height: 235px;
+}
+
+.footer .footercontainer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+.footer .footercontainer>div{
+    width: 223px;
+    margin-right: 1.7rem;
+}
+
+.footer h5{
+    text-align: center;
+    opacity:0.7;
+    font-weight: light;
+    font-size: 0.9rem;
+}
+
+.footercontainer .footerthird ul li a{
+    font-size: 0.9rem;
+    opacity: 0.8;
+
+}
+.footercontainer .footerthird ul li i{
+    opacity: 0.8;
+}
+
+.footercontainer .footerthird ul li{
+    margin: 10px 0;
+}
+.email{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.8rem;
+    opacity: 0.8;
+    width: 100%;
+    margin-right: 10px;
+
+}
+
+.footersecond{
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+.buttons{
+    padding: 50px 0;
+}
+.buttons .btn{
+    padding: 12px;
+    background-color: rgb(44, 48, 143);
+    color:white;
+    border-radius: 1rem;
+    border:2px solid white;
+    cursor:pointer;
+}
